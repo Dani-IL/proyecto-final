@@ -103,8 +103,8 @@ img {
 }
 
 .header {
-  padding: 0 2%;
-  border-bottom: 1px inset whiteSmoke;
+  padding: 0%;
+  border-bottom: 1px inset #ffffff;
   margin: 0 auto;
   width: 80%;
   background: #ffffff;
@@ -113,10 +113,19 @@ img {
 .logo {
   float: left;
   padding: 5px 0 0;
+  padding: 0 2%;
+  border-bottom: 1px inset #ffffff;
+  margin: 0 auto;
+  margin-top: 3px;
+  background: #ffffff;
 }
 
 .header-right {
   float: right;
+  padding: 0 2%;
+  border-bottom: 1px inset #ffffff;
+  margin: 0 auto;
+  background: #ffffff;
 }
 
 .main-contact {
@@ -163,7 +172,7 @@ img {
   display: block;
   color: #444444;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 16px;
   font-weight: normal;
 }
 
@@ -182,6 +191,10 @@ img {
 /*slider*/
 .slider {
   padding: 2% 4% 0 4%;
+  border-bottom: 1px inset whiteSmoke;
+  margin: 0 auto;
+  width: 80%;
+  background: #ffffff;
 }
 
 .slider h2 {
@@ -206,12 +219,13 @@ img {
 .sidebar {
   float: left;
   width: 30.33%;
-  margin-right: 3.33%;
+  padding: 2%;
 }
 
 .content {
   float: right;
   width: 66.33%;
+  padding: 2%;
 }
 
 .text h2 {
@@ -526,6 +540,7 @@ img {
 
 /*sidebar*/
 .abt-sidebar {
+  padding: 2%;
   width: 28.33%;
   float: right;
 }
@@ -578,6 +593,7 @@ img {
 
 /*servicios*/
 .service {
+  padding: 2%;
   float: left;
   width: 68.33%;
   margin-right: 2.33%;
