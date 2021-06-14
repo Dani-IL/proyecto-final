@@ -211,6 +211,10 @@ img {
   text-transform: capitalize;
 }
 
+h5 {
+  text-align: justify;
+}
+
 .main {
   padding: 2% 4% 2% 4%;
 }
@@ -853,6 +857,12 @@ img {
     text-align: center;
   }
 
+  .nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
   .nav li {
     display: inline-block;
     margin-right: 0px;
@@ -1027,6 +1037,12 @@ img {
     display: block;
     float: none;
     margin-left: 0%;
+  }
+
+  .nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .span_1_of_3 {
