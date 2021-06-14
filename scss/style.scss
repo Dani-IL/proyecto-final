@@ -211,6 +211,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	text-transform: capitalize;
   }
   
+  h5 {
+	text-align: justify;
+  }
+  
   .main {
 	padding: 2% 4% 2% 4%;
   }
@@ -853,6 +857,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	  text-align: center;
 	}
   
+	.nav {
+	  justify-content: center;
+	}  
+  
 	.nav li {
 	  display: inline-block;
 	  margin-right: 0px;
@@ -1028,6 +1036,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	  float: none;
 	  margin-left: 0%;
 	}
+  
+  .nav {
+	justify-content: center;
+  }
   
 	.span_1_of_3 {
 	  width: 100%;
